@@ -63,7 +63,11 @@ const App = () => {
                     <Text style={styles.text}>{item?.name}</Text>
                     <Text style={styles.text}>{item?.quantity}</Text>
                     <Text style={styles.text}>{item?.total_item}</Text>
-                    <Text style={styles.text}>{item?.created_at}</Text>
+                    <Text style={styles.text}>
+                      {item?.created_at?.slice(0, 10) +
+                        ' ' +
+                        item?.created_at?.slice(14, 19)}
+                    </Text>
                   </View>
                 </View>
               </View>
