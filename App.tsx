@@ -95,6 +95,10 @@ const styles = StyleSheet.create({
   container: {
     paddingHorizontal: 16,
     paddingVertical: 12,
+    borderWidth: 1,
+    borderRadius: 8,
+    marginBottom: 16,
+    borderColor: 'rgb(225, 225, 225)',
   },
   rowSpaceBeetwen: {
     justifyContent: 'space-between',
