@@ -84,7 +84,7 @@ export default App;
 const styles = StyleSheet.create({
   padding: {
     padding: 16,
-    marginBottom: 40,
+    marginBottom: 70,
   },
   title: {
     fontSize: 16,
